@@ -1,0 +1,100 @@
+.tahoma{
+  font-family: Tahoma;
+}
+
+.arial h1{
+  font-family: arial;
+}
+
+.arial small{
+  font-family: arial;
+  color: red;
+  font-style: italic ;
+  font-size: 25px;
+}
+
+.verdana{
+  font-family: verdana;
+}
+
+.course,.to{
+  font-weight: bold;
+}
+
+.course{
+  font-size: 25px;
+}
+
+.button{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.to{
+  font-size: 20px;
+  color: grey;
+}
+
+.h1,.midle, a{
+  font-family: arial;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+.new,.upmiddle,.bottommiddle,.money,.button2{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: arial;
+}
+
+.new{
+  font-weight: bold;
+  color: rgb(255, 115, 0);
+}
+
+.upmiddle{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.bottommiddle{
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.money{
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button2{
+  border: none;
+  background-color: #005fee;
+  color: white;
+  padding: 15px 23px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.body2{
+  font-family: arial;  
+}

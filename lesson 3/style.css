@@ -1,0 +1,138 @@
+#button{
+  padding: 10px 15px;
+  background-color: #000000;
+  border: 0px;
+  color: white;
+  transition: background 0.3s ease-out,0.3s;
+}
+
+#button:hover{
+  padding: 10px 15px;
+  background-color: rgb(100, 93, 93);
+  cursor: pointer;
+  color: white;
+}
+
+#button2{
+  padding: 10px 50px;
+  background-color: rgb(255, 216, 20);
+  border-radius: 25px;
+  border: 0px;
+  font-size: 15px;
+  transition: background 0.3s ease-out,0.3s;
+}
+
+#button2:hover{
+  padding: 10px 50px;
+  background-color: rgb(150, 126, 7);
+  border-radius: 25px;
+  border: 0px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#button3{
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0px;
+  font-size: large;
+  background-color: rgb(49, 164, 79);
+  color: white;
+  transition: background 0.3s ease-out,0.3s;
+}
+
+#button3:hover{
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0px;
+  font-size: large;
+  background-color: rgb(49, 164, 79);
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px black;
+}
+
+#button4{
+  padding: 15px 25px;
+  background-color: rgb(121, 82, 179);
+  border-radius: 3px;
+  border: 0px;
+  color: white;
+  transition: background 0.3s ease-out,0.3s;
+  font-size: medium;
+}
+
+#button4:hover{
+  padding: 15px 25px;
+  background-color: rgb(88, 62, 127);
+  border-radius: 3px;
+  border: 0px;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#button5{
+  margin: 15px;
+  padding: 15px 25px;
+  background-color: white;
+  border: 1px solid rgb(108, 117, 125);
+  color: rgb(108, 117, 125);
+  transition: background 0.3s ease-out,0.3s;
+  border-radius: 3px;
+  font-size: medium;
+}
+
+#button5:hover{
+  margin: 15px;
+  padding: 15px 25px;
+  background-color: rgb(108, 117, 125);
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#button6{
+  padding: 13px 25px;
+  border-radius: 20px;
+  border: 0px;
+  transition: background 0.3s ease-out,0.3s;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-size: medium;
+  
+}
+#button6:hover{
+  padding: 13px 25px;
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+  background-color: rgb(15, 67, 120);
+  color: white;
+  font-size: medium;
+  
+}
+
+#button7{
+  margin: 10px;
+  padding: 13px 25px;
+  border: 1px solid rgb(10, 102, 194);
+  border-radius: 20px;
+  transition: background 0.3s ease-out,0.3s;
+  color: rgb(10, 102, 194);
+  font-size: medium;
+  background-color: white;
+}
+
+#button7:hover{
+  margin: 10px;
+  padding: 13px 25px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: medium;
+  background-color: rgb(10, 102, 194);
+}

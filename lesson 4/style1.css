@@ -1,0 +1,122 @@
+.pagination{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.pagination button {
+  border: 1px solid black;
+  padding: 15px 15px;
+  font-size: 19px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.pagination button:hover{
+  border: 1px solid black;
+  transition: background 0.2s ease-out, color 0.2s ease-out,transform 0.2s ease-out;
+  background-color: rgb(157, 157, 157);
+  cursor: pointer;
+  font-size: 19px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.pagination button:active{
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-size: 19px;
+  border-radius: 3px;
+  text-align: center;
+  transition: none;
+}
+
+.pagination a{
+  font-size: 25px;
+}
+
+.stretch{
+  padding: 10px 20px;
+  font-size: 20px ;
+  background-color: green;
+  border: none;
+  color: white;
+  transition: padding 0.3s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stretch:hover{
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.shadow{
+  border: none;
+  background-color: green;
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 4px 5px 0px rgb(194, 194, 194);
+}
+
+.shadow:active{
+  transform: translate(3px,3px);
+  box-shadow: none;
+}
+
+.one,.two,.three{
+  padding: 10px 20px;
+  margin: 10px 20px;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  background:green;
+  color: white;
+  font-size: 22px;
+  transition: padding 0.2s ease-out, margin 0.2s ease-out;
+}
+
+.one:hover,.two:hover,.three:hover{
+  padding: 10px 25px;
+  margin: 0px 15px;
+}
+
+.subs{
+  border: none;
+  background-color: #c00;
+  color: white;
+  margin: 10px 10px;
+  font-size: 20px;
+  padding: 14px 18px 14px 18px;
+  border-radius: 3px ;
+}
+
+.join{
+  border: 1px solid #1DA1F2;
+  background-color: white;
+  color: #1DA1F2;
+  font-size: 22px;
+  border-radius: 3px;
+  padding: 12px 16px 12px 16px;
+  margin: 10px 10px;
+}
+
+.x{
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #1DA1F2;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px 10px;
+  padding: 14px 20px 14px 20px;
+}

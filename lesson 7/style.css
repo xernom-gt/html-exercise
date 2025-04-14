@@ -1,0 +1,33 @@
+.a{
+  border-radius: 10px;
+  width: 200px;
+}
+
+.b{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.b img{
+  width: 100%;
+  height: auto;
+}
+
+.c{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius:50% ;
+  align-items: center;  
+}
+
+.c img{
+  width: 100%;
+  height: auto;
+}
