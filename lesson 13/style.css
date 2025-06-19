@@ -1,0 +1,250 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 13a */
+
+.container {
+    display: flex;
+    width: 300px;
+}
+
+.item {
+    width: 200px;
+    height: 50px;
+    background-color: pink;
+    text-align:center;
+    font-weight: bolder;
+    justify-content: center;
+    font-family: arial;
+}
+
+.item2 {
+    width: 100px;
+    background-color: lightblue;
+}
+
+/* 13b */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.square {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border: 3px solid white;
+    background-color: white;
+}
+
+.nested-box {
+    display: flex;
+    background-color: pink;
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row-container {
+    background-color: lightblue;
+    width: 190px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    font-weight: bold;
+    background-color: transparent;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+/* 13c */
+
+.container2 {
+    display: block;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 200pxpx;
+}
+
+.header {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+.timestamp {
+    display: block;
+    font-size: 12px;
+    color: gray;
+    justify-items: center;
+}
+
+/* 13d */
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 222px;
+    
+}
+
+.header {
+    color: gray;
+    font-size: 12px;
+}
+
+.square2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.consume {
+    width: px;
+    height: 50px;
+    border-radius: 50%;
+    display:    flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+.timestamp {
+    display: block;
+    font-size: 12px;
+    color: gray;
+    justify-self: auto;
+}
+
+/* 13f */
+
+.twitter-post {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.profile-picture-container {
+    margin-right: 15px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    margin-bottom: 5px;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.user-handle {
+    color: #657786;
+}
+
+.post-text {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-family: arial, sans-serif;
+}
+
+.post-link {
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.link-preview {
+    display: flex
+}
+
+.link-image {
+    width: 120px;
+    background-color: #e1e8ed;
+    background-image: url('https://picsum.photos/120/80');
+    background-size: cover;
+    background-position: center;
+}
+
+.link-text {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link-url {
+    color: #657786;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.link-title {
+    font-weight: bold;
+}
