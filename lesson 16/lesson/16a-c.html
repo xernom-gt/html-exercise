@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>16a</h1>
+    <header>
+        <a href="#" title="kepo ya?">click me</a>
+    </header>
+
+
+    <h1>16b</h1>
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=W_ywLuuu9Ixx2mKW" title="come on click me">click me</a>
+
+
+    <h1>16c & 16d</h1>
+<header>
+  <div class="main-container">
+    <div class="container">
+      <a href="https://youtu.be/dQw4w9WgXcQ?si=W_ywLuuu9Ixx2mKW" title="just cool video">
+        <img src="thumbnail.png" alt="deadpool teaser" class="thumbnail">
+      </a>
+      <span class="label">09.11</span>
+    </div>
+
+    <div class="title">
+      <div class="tooltip-container">
+        <img src="/lesson 7b/deadpool.jpeg" alt="" class="pp">
+        <div class="tooltip-info">
+          <img src="/lesson 7b/deadpool.jpeg" alt="">
+          <div class="profile">
+            <p><strong>Deadpool Channel</strong></p>
+            <p>2.3M subscribers</p>
+          </div>
+        </div>
+      </div>
+      <p>Official teaser Deadpool & Wolverine</p>
+    </div>
+  </div>
+</header>
+
+<style>
+  body {
+    font-family: Tahoma;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    width: 300px;
+    position: relative;
+  }
+
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .label {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 2px 6px;
+    font-size: 14px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .pp {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+  }
+
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip-info {
+  position: absolute;
+  top: 110%;
+  left: 23vh;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  min-width: 230px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tooltip-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile p {
+  margin: 2px 0;
+  line-height: 1.2;
+}
+
+.profile p:first-child {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+  .tooltip-container:hover .tooltip-info {
+    opacity: 1;
+  }
+</style>
+
+</body>
+</html>
